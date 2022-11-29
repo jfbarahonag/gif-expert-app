@@ -1,6 +1,5 @@
-import { AddCategory } from "./components/AddCategory";
+import { AddCategory, GifGrid } from './components';
 import { useState } from "react";
-import { GifGrid } from "./components/GifGrid";
 
 export const GifExpertApp = () => {
 
