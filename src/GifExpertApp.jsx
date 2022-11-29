@@ -1,3 +1,4 @@
+import { AddCategory } from "./components/AddCategory";
 import { useState } from "react";
 
 export const GifExpertApp = () => {
@@ -14,7 +15,7 @@ export const GifExpertApp = () => {
       {/* title */}
       <h1>GifExpertApp</h1>
       {/* input */}
-
+      <AddCategory />
       {/* GIF list */}
       <button
         onClick={onAddCategory}
