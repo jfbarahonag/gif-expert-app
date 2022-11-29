@@ -15,7 +15,7 @@ export const GifExpertApp = () => {
       <h1>GifExpertApp</h1>
       {/* input */}
       <AddCategory
-        onAddCategory={onAddCategory} 
+        onNewCategory={ onAddCategory } 
       />
       {/* GIF list */}
       <button
